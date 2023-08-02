@@ -1,0 +1,399 @@
+#header {
+    background-color: #FFF0F5;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 5;
+    box-shadow: 2px 2px 3px #ff89a7;
+}
+
+#header span {
+    color: #db5375;
+    grid-column: span 6;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Apercu Mono";
+    padding-left: 10px;
+    padding-top: 5px;
+    z-index: 6;
+}
+
+#header a {
+    color: #e67793;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Apercu;
+    border: none;
+    background-color: #FFF0F5;
+    text-decoration: none;
+    text-align: center;
+    z-index: 6;
+}
+
+#header a:hover {
+    color: #ff439e;
+}
+
+
+
+
+
+
+
+
+#homepage {
+    position: relative;
+}
+
+#homesky {
+    width: 100%;
+    height: 100vh;
+}
+
+#hometitle {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #FFF0F5;
+    font-size: 70px;
+}
+
+#homeblurb {
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    color: #ebe3e5;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+#pinkclouds {
+    background-image:url("id_photo.jpg");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#id {
+    background-image:url("pinkclouds.jpg");
+    position: absolute;;
+    width: 20%;
+    margin-left: 18%;
+    z-index: 2;
+    padding: none;
+    border: none;
+    float: left;
+}
+
+#name {
+    position: absolute;
+    color: #db5375;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Apercu Mono";
+    margin-left: 39%;
+    margin-top: 0;
+}
+
+#description {
+    position: absolute;
+    color: #df6a87;
+    text-align: left;
+    font-family: Apercu;
+    margin-left: 39%;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+
+#aboutmediv {
+    height: 20%;
+    margin-top: 20%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+#projectpage {
+    position: relative;
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+#sky {
+    position: relative;
+    margin-top: 6px;
+    left: 0px;
+    width: 100%;
+    height: 120vh;
+    z-index: -2;
+}
+
+#projectpage h1 {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 15%;
+    color: #ec5594;
+    margin-top: 220px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #604dbe;
+}
+
+#down {
+    position: absolute;
+    left: 47.5%;
+    top: 60%;
+    width: 5%;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 60px;
+    color: #f66d9b;
+    text-align: center;
+}
+
+#purplebackground {
+    background-color: #d3c9f3;
+    margin: none;
+    margin-top: -64px;
+    padding-bottom: 40px;
+}
+
+#htmlcss {
+    padding-top: 40px;
+}
+
+.title-container .title {
+    color: #f66d9b;
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+.grid-container, .grid-container2 { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    height: 390px;
+    padding: 0px 30px 100px 60px;
+}
+
+.grid-container2 { 
+    padding-bottom: 210px;
+}
+
+.card {
+    background-color: #FFF0F5;
+    position: relative;
+    width: 90%;
+    height: 65vh;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px rgb(63, 65, 180);
+}
+
+.onefile {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #e4e4e4;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.twofile {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e4e4e4;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.onefile a, .twofile a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #f772b9;
+    margin-top: 15px;
+}
+
+.onefile:hover, .twofile div:hover {
+    background-color: #cecece;
+}
+
+.twofile .one {
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: #f772b9;
+    margin-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.twofile .two {
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: #f772b9;
+    margin-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.card h3 {
+    margin-left: 5%;
+    font-size: 21px;
+    color: #f772b9;
+    text-align: left;
+}
+
+.card p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    color: #f2a9cc;
+    text-align: left;
+}
+
+#poem, #tic, #cards, #conditionals, #functions, #js {
+    box-shadow: 1px 1px rgb(161, 161, 161);
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 25vh;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #FFF0F5;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 5;
+    box-shadow: 0px 0px, 0px -2px 3px #ff89a7;
+}
+
+footer #linkedinpic {
+    height: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: none;
+    padding: 0px 5px 0px 0px;
+}
+
+footer #linkedin {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 9px;
+    width: 50%;
+    margin-left: 35%;
+}
+
+footer #linkedinlink {
+    color: #ee70ad;
+    position: absolute;
+    text-decoration: none;
+}
+
+#linkedinlink:hover, #emaillink:hover, #phonelink:hover  {
+    text-decoration: underline;
+}
+
+
+footer #emailpic {
+    width: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: none;
+    padding: 2px 5px 0px 0px;
+}
+
+footer #email {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 9px;
+    margin-left: 43%;
+}
+
+footer #emaillink {
+    background-color: transparent;
+    color: #ee70ad;
+    position: absolute;
+    text-decoration: none;
+    border: none;
+    margin-top: 2px;
+}
+
+footer #phonepic {
+    height: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: none;
+    padding: 0px 5px 0px 0px;
+}
+
+footer #phone {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 9px;
+    margin-left: 45%;
+}
+
+footer #phonelink {
+    background-color: transparent;
+    color: #ee70ad;
+    position: absolute;
+    text-decoration: none;
+    border: none;
+    margin-top: 2px;
+}
+
+footer p {
+    width: 20%;
+    margin-left: 25%;
+}
